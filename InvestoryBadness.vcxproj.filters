@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bots">
+      <UniqueIdentifier>{e095ab62-4ee1-42ae-8dc4-ae0b61b97af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\BadEcoBot">
+      <UniqueIdentifier>{71f310a1-28fc-49aa-83ea-c9e51fb0818d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\BandwagonBot">
+      <UniqueIdentifier>{f0ecb078-6652-4b61-8657-96fcaede8a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\DiversityBot">
+      <UniqueIdentifier>{bd50ff18-4e8b-4fd0-af54-eb149cea4745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\RandomBot">
+      <UniqueIdentifier>{66a58022-f8b5-4d82-a5c4-76e4a388ce03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots\WhaleBot">
+      <UniqueIdentifier>{f5b45be9-0b48-452d-9988-9e61958269d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\investment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bots\BadEcoBot\BadEcoBot.cpp">
+      <Filter>Bots\BadEcoBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bots\BandwagonBot\BandwagonBot.cpp">
+      <Filter>Bots\BandwagonBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bots\DiversifyBot\DiversifyBot.cpp">
+      <Filter>Bots\DiversityBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bots\RandomBot\RandomBot.cpp">
+      <Filter>Bots\RandomBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bots\WhaleBot\WhaleBot.cpp">
+      <Filter>Bots\WhaleBot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basebot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\investment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots\BadEcoBot\BadEcoBot.h">
+      <Filter>Bots\BadEcoBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots\BandwagonBot\BandwagonBot.h">
+      <Filter>Bots\BandwagonBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots\DiversifyBot\DiversifyBot.h">
+      <Filter>Bots\DiversityBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots\RandomBot\RandomBot.h">
+      <Filter>Bots\RandomBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots\WhaleBot\WhaleBot.h">
+      <Filter>Bots\WhaleBot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
